@@ -1,0 +1,16 @@
+{
+  "name": "nodejspureapi",
+  "version": "1.0.0",
+  "description": "Vanilla Node.js REST API | No Framework",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
