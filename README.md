@@ -1,10 +1,15 @@
 # Product Management API
 
 ## Overview
-This Node.js API for managing products has two branches:
 
-File System Branch: Utilizes a file-based system for storing product data.
+This Node.js API provides basic CRUD operations for managing products. There are two branches available:
+- **file-db**: Uses a file-based system for storing data.
+- **mongo-db**: Uses MongoDB for data storage.
 
+## Getting Started
 
+### Prerequisites
 
-MongoDB Branch: Uses MongoDB for database operations.
+- Node.js
+- Docker (for containerized setup)
+
