@@ -1,6 +1,7 @@
 # Product Management API
 
 ## Overview
+This Node.js API for managing products has two branches:
 
-This is a simple Node.js API for managing products. It provides basic CRUD (Create, Read, Update, Delete) operations using HTTP requests.
-
+File System Branch: Utilizes a file-based system for storing product data.
+MongoDB Branch: Uses MongoDB for database operations.
