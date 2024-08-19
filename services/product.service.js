@@ -1,29 +1,28 @@
-const Product = require('../models/product.model'); // Make sure 'Product' matches the model's exported name
+const Product = require('../models/product.model'); 
 
-// Get all products
 function findAll() {
-    return Product.find(); // Ensure you use the correct model name
+    return Product.find(); 
 }
 
 // Get product by ID
 function findById(id) {
-    return Product.findById(id); // Ensure you use the correct model name
+    return Product.findById(id); 
 }
 
 // Create a new product
 function create(product) {
-    const newProduct = new Product(product); // Ensure 'Product' is used here
+    const newProduct = new Product(product); 
     return newProduct.save();
 }
 
 // Update a product by ID
 function update(id, productData) {
-    return Product.findByIdAndUpdate(id, productData, { new: true }); // Ensure 'Product' is used here
+    return Product.findByIdAndUpdate(id, productData, { new: true }); 
 }
 
 // Delete a product by ID
 function remove(id) {
-    return Product.findByIdAndDelete(id); // Ensure 'Product' is used here
+    return Product.findByIdAndDelete(id); 
 }
 
 module.exports = {
