@@ -31,4 +31,4 @@ jobs:
       uses: docker/build-push-action@v6
       with:
         push: true
-        tags: habiba151/node-app:mongodb
+        tags: habiba151/node-app-mongoDB:1.0.0
