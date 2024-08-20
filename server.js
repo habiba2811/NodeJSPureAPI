@@ -13,3 +13,6 @@ const server = http.createServer(productRoutes);
 server.listen(PORT, ()=> {
   connectToMongo()
   console.log(`Server runing on port ${PORT}`)})
+
+
+  //TESTING PIPELINES
