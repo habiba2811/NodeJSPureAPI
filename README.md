@@ -20,7 +20,7 @@ This project is built from the ground up using plain Node.js to give a clear und
 
 ## CI/CD Pipelines
 
-CI/CD pipelines have been set up to automate the build, test, and deployment processes for both branches, ensuring continuous integration and delivery.
+CI/CD pipelines have been set up to automate the build, and deployment processes for both branches, ensuring continuous integration and delivery.
 
 ### file-db Branch
 
