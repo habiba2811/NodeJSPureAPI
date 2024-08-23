@@ -5,6 +5,7 @@
 ![file-db Branch](https://img.shields.io/badge/Branch-file--db-blueviolet)
 ![mongo-db Branch](https://img.shields.io/badge/Branch-mongo--db-ff69b4)
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-yellow)
+![Version](https://img.shields.io/badge/Version-1.0.0-orange)
 
 ## Overview
 
